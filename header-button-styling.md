@@ -1,7 +1,22 @@
-# Inconsistent Header Button Colors & Hover States
+# HDR-UI-001 – Single Header Button Missing Red Hover Background
 
-* **Type:** UI Layout / Visual Consistency
-* **Platform:** Web / Mobile Web
-* **Description:** Buttons in the header bar do not consistently apply the same color or hover state across items, creating uneven visual hierarchy in top navigation.
-* **Expected Result:** All header action buttons follow a consistent color and hover/active state rule.
-* **Actual Result:** Individual buttons in the header appear with inconsistent colors/states.
+* **Severity:** Low
+* **Environment:** Web / Mobile Web (anonymized)
+* **Reproducibility:** 100%
+
+## Summary
+Buttons aligned in the header bar display a red background on hover, except for one button that does not apply this hover state.
+
+## Steps
+1. Open a page containing the horizontal button group in the header bar.
+2. Move the cursor over the header buttons one by one.
+3. Observe the hover background color on each button, including the affected one.
+
+## Actual
+Most header buttons show a red background on hover, while one specific button does not change to a red hover background.
+
+## Expected
+All buttons in the header group should consistently display the red hover background when hovered.
+
+## Notes
+Inconsistent hover styling or missing CSS hover rule on one header button.
